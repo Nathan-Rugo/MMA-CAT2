@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Our Wildlife - Conservation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Save Our Wildlife</h1>
+    </header>
+
+    <main class="container">
+        <section class="video-section">
+            <video id="wildlife-video" controls aria-describedby="video-desc">
+                <source src="wildlife.mp4" type="video/mp4">
+                Your browser does not support the video tag. 
+                You can <a href="wildlife.mp4">download the video file here</a>.
+            </video>
+            
+            <p id="video-desc" class="description">
+                Our planet's wildlife is facing unprecedented threats. This promotional video showcases 
+                the delicate balance of our ecosystems and explains how our organization works day and 
+                night to protect endangered species in their native habitats.
+            </p>
+
+            <button id="toggle-btn" aria-controls="wildlife-video">Hide Video</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Save Our Wildlife Organization. All rights reserved.</p>
+    </footer>
+</body>
+</html>
